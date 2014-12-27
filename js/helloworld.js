@@ -1,5 +1,5 @@
-var Greeting = React.createClass({
-    render: function() {
+/* var Greeting = React.createClass({
+     render: function() {
         return (
             <h1>
                 Hello, world!
@@ -7,8 +7,9 @@ var Greeting = React.createClass({
         );
     }
 });
+*/
 
 React.render(
-  <Greeting />,
+  <h1>Hello, world!</h1>,
   document.getElementById('example')
 );
