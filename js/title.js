@@ -2,7 +2,7 @@ var Greeting = React.createClass({
   render: function() {
     return (
       <h1>
-        {this.props.greeting}
+        {this.props.children}
       </h1>
     );
   }
@@ -11,6 +11,6 @@ var Greeting = React.createClass({
 var GREETING = "Hello, world!";
 
 React.render(
-  <Greeting greeting={GREETING}/>,
+  <Greeting>{GREETING}</Greeting>,
   document.getElementById('example')
 );
