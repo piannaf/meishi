@@ -1,4 +1,4 @@
-# Requires title.js, a reactjs component
+// Requires title.js, a reactjs component
 var TITLE = "Hello, world!";
 
 React.render(
