@@ -1,4 +1,4 @@
-var Greeting = React.createClass({
+var Title = React.createClass({
   render: function() {
     return (
       <h1>
@@ -8,9 +8,9 @@ var Greeting = React.createClass({
   }
 });
 
-var GREETING = "Hello, world!";
+var TITLE = "Hello, world!";
 
 React.render(
-  <Greeting>{GREETING}</Greeting>,
+  <Title>{TITLE}</Title>,
   document.getElementById('example')
 );
