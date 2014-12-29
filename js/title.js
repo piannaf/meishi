@@ -7,10 +7,3 @@ var Title = React.createClass({
     );
   }
 });
-
-var TITLE = "Hello, world!";
-
-React.render(
-  <Title>{TITLE}</Title>,
-  document.getElementById('example')
-);
