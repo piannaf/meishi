@@ -1,7 +1,7 @@
-// Requires title.js, a reactjs component
+// Requires footer.js, a reactjs component
 var TITLE = "Hello, world!";
 
 React.render(
-  <Title>{TITLE}</Title>,
+  <Footer title={TITLE} />,
   document.getElementById('example')
 );
