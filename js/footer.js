@@ -5,6 +5,9 @@ var Footer = React.createClass({
       <Title>
         {this.props.title}
       </Title>
+      <Summary>
+        {this.props.summary}
+      </Summary>
     );
   }
 });
