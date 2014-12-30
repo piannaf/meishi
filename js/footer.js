@@ -1,4 +1,5 @@
 // Requires title.js, a react component
+// Requires summary.js, a react component
 var Footer = React.createClass({
   render: function() {
     return (
