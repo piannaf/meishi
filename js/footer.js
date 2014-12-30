@@ -2,12 +2,14 @@
 var Footer = React.createClass({
   render: function() {
     return (
-      <Title>
-        {this.props.title}
-      </Title>
-      <Summary>
-        {this.props.summary}
-      </Summary>
+      <div>
+        <Title>
+          {this.props.title}
+        </Title>
+        <Summary>
+          {this.props.summary}
+        </Summary>
+      </div>
     );
   }
 });
