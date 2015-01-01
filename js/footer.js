@@ -12,7 +12,7 @@ var Footer = React.createClass({
           {this.props.summary}
         </Summary>
         <Author>
-          {this.props.summary}
+          {this.props.author}
         </Author>
       </div>
     );
