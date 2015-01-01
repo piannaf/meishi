@@ -1,5 +1,6 @@
 // Requires title.js, a react component
 // Requires summary.js, a react component
+// Requires author.js, a react component
 var Footer = React.createClass({
   render: function() {
     return (
@@ -10,6 +11,9 @@ var Footer = React.createClass({
         <Summary>
           {this.props.summary}
         </Summary>
+        <Author>
+          {this.props.summary}
+        </Author>
       </div>
     );
   }
