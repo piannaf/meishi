@@ -1,12 +1,12 @@
 // Requires footer.js, a reactjs component
-var TITLE = "Hello, world!";
-var SUMMARY = "Just a little blurb about me";
-var AUTHOR = "My name goes here";
-var FLICKR_URL = "https://www.flickr.com/"
-var INSTAGRAM_URL = "https://instagram.com/"
-var FACEBOOK_URL = "https://facebook.com/"
-var TWITTER_URL = "https://twitter.com/"
-var EMAIL_ADDRESS = "just_a_test@mailinator.com"
+var TITLE = "Hello, world!"
+  , SUMMARY = "Just a little blurb about me"
+  , AUTHOR = "My name goes here"
+  , FLICKR_URL = "https://www.flickr.com/"
+  , INSTAGRAM_URL = "https://instagram.com/"
+  , FACEBOOK_URL = "https://facebook.com/"
+  , TWITTER_URL = "https://twitter.com/"
+  , EMAIL_ADDRESS = "just_a_test@mailinator.com";
 
 React.render(
   <Footer
