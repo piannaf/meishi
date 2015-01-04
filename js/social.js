@@ -55,7 +55,7 @@ var Social = React.createClass({
           <Twitter>{this.props.twitterUrl}</Twitter>
         </li>
         <li>
-          <Email>mailto:{this.props.emailAddress}</Email>
+          <Email>{"mailto:" + this.props.emailAddress}</Email>
         </li>
       </ul>
     );
