@@ -41,23 +41,23 @@ var Email = React.createClass({
 var Social = React.createClass({
   render: function() {
     return (
-      <div>
-        <Flickr>
-          {this.props.flickrUrl}
-        </Flickr>
-        <Instagram>
-          {this.props.instagramUrl}
-        </Instagram>
-        <Facebook>
-          {this.props.facebookUrl}
-        </Facebook>
-        <Twitter>
-          {this.props.twitterUrl}
-        </Twitter>
-        <Email>
-          mailto:{this.props.emailAddress}
-        </Email>
-      </div>
+      <ul>
+        <li>
+          <Flickr>{this.props.flickrUrl}</Flickr>
+        </li>
+        <li>
+          <Instagram>{this.props.instagramUrl}</Instagram>
+        </li>
+        <li>
+          <Facebook>{this.props.facebookUrl}</Facebook>
+        </li>
+        <li>
+          <Twitter>{this.props.twitterUrl}</Twitter>
+        </li>
+        <li>
+          <Email>mailto:{this.props.emailAddress}</Email>
+        </li>
+      </ul>
     );
   }
 });
