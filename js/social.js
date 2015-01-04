@@ -45,7 +45,7 @@ var Social = React.createClass({
     return (
       <ul>
         <li>
-          <Flickr url={this.props.flickrUrl} />
+          <Flickr url={this.props.flickrUrl} img={this.props.flickrImg} />
         </li>
         <li>
           <Instagram url={this.props.instagramUrl} />
