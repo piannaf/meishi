@@ -1,7 +1,7 @@
 var Flickr = React.createClass({
   render: function() {
     return (
-      <a href={this.props.children}>Flickr</a>
+      <a href={this.props.url}>Flickr</a>
     );
   }
 });
@@ -9,7 +9,7 @@ var Flickr = React.createClass({
 var Instagram = React.createClass({
   render: function() {
     return (
-      <a href={this.props.children}>Instagram</a>
+      <a href={this.props.url}>Instagram</a>
     );
   }
 });
@@ -17,7 +17,7 @@ var Instagram = React.createClass({
 var Facebook = React.createClass({
   render: function() {
     return (
-      <a href={this.props.children}>Facebook</a>
+      <a href={this.props.url}>Facebook</a>
     );
   }
 });
@@ -25,7 +25,7 @@ var Facebook = React.createClass({
 var Twitter = React.createClass({
   render: function() {
     return (
-      <a href={this.props.children}>Twitter</a>
+      <a href={this.props.url}>Twitter</a>
     );
   }
 });
@@ -33,7 +33,7 @@ var Twitter = React.createClass({
 var Email = React.createClass({
   render: function() {
     return (
-      <a href={this.props.children}>Email</a>
+      <a href={this.props.url}>Email</a>
     );
   }
 });
@@ -43,19 +43,19 @@ var Social = React.createClass({
     return (
       <ul>
         <li>
-          <Flickr>{this.props.flickrUrl}</Flickr>
+          <Flickr url={this.props.flickrUrl} />
         </li>
         <li>
-          <Instagram>{this.props.instagramUrl}</Instagram>
+          <Instagram url={this.props.instagramUrl} />
         </li>
         <li>
-          <Facebook>{this.props.facebookUrl}</Facebook>
+          <Facebook url={this.props.facebookUrl} />
         </li>
         <li>
-          <Twitter>{this.props.twitterUrl}</Twitter>
+          <Twitter url={this.props.twitterUrl} />
         </li>
         <li>
-          <Email>{"mailto:" + this.props.emailAddress}</Email>
+          <Email url={"mailto:" + this.props.emailAddress} />
         </li>
       </ul>
     );
