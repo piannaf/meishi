@@ -3,7 +3,7 @@ var Flickr = React.createClass({
     var content;
     
     if (this.props.img) {
-      content = <img src={this.props.img}>;
+      content = "img"; //<img src={this.props.img}>;
     } else {
       content = "Flickr";
     }
