@@ -1,3 +1,11 @@
+function imgWithDefaultText(img, text) {
+    if (img) {
+      return <img src={img} />;
+    } else {
+      return text;
+    }
+}
+
 var Flickr = React.createClass({
   render: function() {
     var content;
