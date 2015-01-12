@@ -64,16 +64,16 @@ var Social = React.createClass({
           <Flickr url={this.props.flickrUrl} img={this.props.flickrImg} />
         </li>
         <li>
-          <Instagram url={this.props.instagramUrl} />
+          <Instagram url={this.props.instagramUrl} img={this.props.instagramImg} />
         </li>
         <li>
-          <Facebook url={this.props.facebookUrl} />
+          <Facebook url={this.props.facebookUrl} img={this.props.facebookImg} />
         </li>
         <li>
-          <Twitter url={this.props.twitterUrl} />
+          <Twitter url={this.props.twitterUrl} img={this.props.twitterImg} />
         </li>
         <li>
-          <Email url={"mailto:" + this.props.emailAddress} />
+          <Email url={"mailto:" + this.props.emailAddress} img={this.props.emailImg} />
         </li>
       </ul>
     );
