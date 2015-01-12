@@ -2,6 +2,8 @@ var Flickr = React.createClass({
   render: function() {
     var content = "Flickr";
     
+    content = this.props.flickrImg ? this.props.flickrImg : "foobar";
+    
     return (
       <a href={this.props.url}>{content}</a>
     );
