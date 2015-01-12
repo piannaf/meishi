@@ -17,6 +17,7 @@ var Footer = React.createClass({
         </Author>
         <Social 
           flickrUrl={this.props.flickrUrl}
+          flickrImg="https://cloud.githubusercontent.com/assets/70764/5604802/dd80b12c-9417-11e4-87fa-50a48ee9f3d1.png"
           instagramUrl={this.props.instagramUrl}
           facebookUrl={this.props.facebookUrl}
           twitterUrl={this.props.twitterUrl}
