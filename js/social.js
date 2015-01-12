@@ -18,32 +18,40 @@ var Flickr = React.createClass({
 
 var Instagram = React.createClass({
   render: function() {
+    var content = imgWithDefaultText(this.props.img, "Instagram");
+    
     return (
-      <a href={this.props.url}>Instagram</a>
+      <a href={this.props.url}>{content}</a>
     );
   }
 });
 
 var Facebook = React.createClass({
   render: function() {
+    var content = imgWithDefaultText(this.props.img, "Facebook");
+    
     return (
-      <a href={this.props.url}>Facebook</a>
+      <a href={this.props.url}>{content}</a>
     );
   }
 });
 
 var Twitter = React.createClass({
   render: function() {
+    var content = imgWithDefaultText(this.props.img, "Twitter");
+    
     return (
-      <a href={this.props.url}>Twitter</a>
+      <a href={this.props.url}>{content}</a>
     );
   }
 });
 
 var Email = React.createClass({
   render: function() {
+    var content = imgWithDefaultText(this.props.img, "Email");
+    
     return (
-      <a href={this.props.url}>Email</a>
+      <a href={this.props.url}>{content}</a>
     );
   }
 });
