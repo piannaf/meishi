@@ -8,13 +8,7 @@ function imgWithDefaultText(img, text) {
 
 var Flickr = React.createClass({
   render: function() {
-    var content;
-    
-    if (this.props.img) {
-      content = <img src={this.props.img} />;
-    } else {
-      content = "Flickr";
-    }
+    var content = imgWithDefaultText(this.props.img, "Flickr");
     
     return (
       <a href={this.props.url}>{content}</a>
